@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main{
+    height: 700px;
+    width: 650px;
+    border: 2px black solid;
+    border-radius: 20%;
+    margin: 0 auto;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 10px black solid;
+    margin: 2rem;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow
+}
+.blue{
+    background-color: blue;
+}
+.flash{
+    background-color: yellowgreen;
+}
+.userflash{
+     background-color: white;
+}
